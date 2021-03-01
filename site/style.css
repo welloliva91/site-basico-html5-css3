@@ -30,7 +30,7 @@ a {
 
 .post {
     background: white;
-    padding: 15px;
+    padding: 10px;
     border: 3px solid #808080;
     margin-bottom: 15px;
     border-radius: 10px;
@@ -38,11 +38,20 @@ a {
 
 .post_content {
     margin: 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     text-transform: capitalize;
 }
 
 .post_image {
     margin-bottom: 15px;
+}
+
+.contacts_list {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.contacts_list li a {
+    text-decoration: none;
 }
 
